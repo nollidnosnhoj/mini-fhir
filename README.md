@@ -2,6 +2,8 @@
 
 Lightweight in-memory FHIR server for CI/testing. Supports DSTU3 resources: Patient, Practitioner, PractitionerRole, Organization, Observation, Flag, Consent, AdvanceDirective, Location, Task.
 
+**Not for production:** mini-fhir is intended only for testing and CI/CD environments.
+
 ## Features
 - In-memory store with history
 - Search params: `_include`, `_include:iterate`, `_profile`, `_count`, `_sort`
