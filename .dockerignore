@@ -1,0 +1,11 @@
+.fhir-cache
+.git
+.gitignore
+.vscode
+.idea
+*.log
+*.tmp
+*.test
+**/*_test.go
+**/testdata
+**/fixtures
